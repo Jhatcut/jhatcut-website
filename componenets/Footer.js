@@ -6,6 +6,7 @@ class Footer extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <footer>
+    <div id="footer-div">
     <div id="brand">
       <a href="/index.html"><img src="assets/JHATCUT.svg" height="50%" alt=""></a>
       <p>An app that helps you to book salon seat , and saves your precious time</p>
@@ -34,6 +35,7 @@ class Footer extends HTMLElement {
         <a href=""><img src="assets/icons/brandico_facebook-rect.svg" alt=""></a>
         <a href=""><img src="assets/icons/akar-icons_youtube-fill.svg" alt=""></a>
       </div>
+    </div>
     </div>
   </footer>`;
   }

@@ -10,44 +10,27 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Biryani&family=Work+Sans&display=swap" rel="stylesheet">
+  <script src="componenets/Header.js" type="text/javascript" defer></script>
   <script src="componenets/Footer.js" type="text/javascript" defer></script>
   <title>JhattCut</title>
   <link rel="icon" href="favicon.png" >
 </head>
-
-<header>
-  <nav>
-    <div id="brand">
-      <a href="/index.html">
-        <img src="assets/branding.svg" alt="">
-      </a>
-    </div>
-    <div id="links">
-      <div>
-        <a href="/index.html">Home</a>
-        <a href="/index.html#about">About</a>
-        <a href="/index.html#services">Services</a>
-        <a href="">
-          <img src="assets/contact-us-btn.svg" alt="">
-        </a>
-      </div> 
-    </div>
-  </nav>
-</header>
+<header-component></header-component>
 <body>
-  
-
   <section id="intro">
-    <img id="intro-img" src="assets/side-view-man-getting-new-hairstyle_23-2148242799 1.png"></img>
-    <img id="scroll-down" src="assets/scroll-down.png" height="100px" width="100px" alt="">
-    <div id="intro-text-box">
+    <picture id="intro-img">
+      <source srcset="assets/mobile/Home.svg" media="(max-width: 700px)" width="100%" >
+      <img src="assets/index/Home.svg"  height="auto" width="100%"></img>
+    </picture>
+    <!-- <img id="scroll-down" src="assets/scroll-down.png" height="100px" width="100px" alt=""> -->
+    <!-- <div id="intro-text-box">
       <p id="message">Abb no more late cut...
       <div>
         <p id="karo">karo</p>
         <img id="jhatcut-logo" src="assets/JHATCUT.svg" alt="" srcset="">
       </div>
       <p id="app">An app that saves your precious time</p>
-    </div>
+    </div> -->
   </section>
 
   <section id="about">
@@ -91,9 +74,20 @@
       <p id="services-intro"> We have wide range of Unisex Salons to deliever services in Delhi including places
         Kamlanagar, Shakti Nagar and Malkaganj. </p>
     </div>
-    <div id="images-div">
+    <!-- <div id="images-div">
       <img id="for-men" src="assets/index/services/Mens Services.svg" alt="">
       <img id="for-women" src="assets/index/services/Womens Services.svg" alt="">
+    </div> -->
+
+    <div id="images-div">
+      <div id="men-services" class="image-div">
+        <img id="picture" src="assets/index/services/picture-men.svg" alt="">
+        <img id="s" src="assets/index/services/services-men.svg" alt="">
+      </div>
+      <div id="women-services" class="image-div">
+        <img id="picture" src="assets/index/services/picture-women.svg" alt="">
+        <img id="s" src="assets/index/services/services-women.svg" alt="">
+      </div>
     </div>
   </section>
 
@@ -110,9 +104,23 @@
         </a>
       </div>
       <img id="app-preview" src="assets/index/download/jhatcut-app-preview.svg" alt="">
+
+      <div id="download-section-mobile">
+        <img id="app-preview-mobile" src="assets/mobile/app-preview.svg" alt="">
+        <div>
+          <p>Scan Now</p>
+        </div>
+        <img id="qrcode" src="assets/index/download/qrcode.png" alt="">
+        <!-- <h1>Download <span>JhatCut</span> Now!!!</h1> -->
+        <a href="#">
+          <img id="playstore-btn" src="assets/index/download/play-store-button.svg" alt="">
+        </a>
+      </div>
+      
     </div>
   </section>
 </body>
-<footer-component></footer-component>
 
+<footer-component></footer-component>
+<script src="index.js"></script>
 </html>
