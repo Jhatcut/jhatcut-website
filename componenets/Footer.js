@@ -14,7 +14,7 @@ class Footer extends HTMLElement {
     <div id="first" class="links-div">
       <a href="/index.html#about">About</a>
       <a href="/index.html#services">Services</a>
-      <a href="">Contact US</a>
+      <a href="/contact-us.html">Contact US</a>
     </div>
     <!-- <div class="seaprator" style="left: 50%;"></div> -->
     <div id="second" class="links-div">

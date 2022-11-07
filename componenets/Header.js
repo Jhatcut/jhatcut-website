@@ -18,14 +18,14 @@ class Header extends HTMLElement {
         <a href="/index.html">
           <img src="assets/logo.svg" alt="">
         </a>
-        <h1>JhatCut</h1>
+        <h1>JhattCut</h1>
       </div>
       <div id="links">
         <div id="nav-links">
           <a href="/index.html">Home</a>
           <a href="/index.html#about">About</a>
           <a href="/index.html#services">Services</a>
-          <a href="">
+          <a href="/contact-us.html">
             <img src="assets/contact-us-btn.svg" alt="">
           </a>
           <a id="toggle-mode">

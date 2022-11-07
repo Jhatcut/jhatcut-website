@@ -47,6 +47,8 @@ a {
   display: block;
   position: relative;
   width: 100%;
+  background-color: var(--secondary-main-4);
+
 }
 
 a:hover {
@@ -55,7 +57,7 @@ a:hover {
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   position: sticky;
   top: 0;
@@ -64,7 +66,7 @@ nav {
   z-index: 1000;
   margin: 0 auto;
   background-color: var(--secondary-main-4);
-  width: 100%;
+  width: 95%;
 }
 
 #menu-bar {
@@ -132,7 +134,7 @@ footer {
 #footer-div {
   display: grid;
   grid-template-areas: "a b c d";
-  width: 95%;
+  width: 98%;
   margin: 0 auto;
 }
 

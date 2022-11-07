@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Biryani&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script src="componenets/Header.js" type="text/javascript" defer></script>
+    <script src="componenets/Footer.js" type="text/javascript" defer></script>
+    <title>Contact US</title>
+  </head>
+  <style>
+    body {
+      background-color: var(--secondary-main-4);
+      margin: 0;
+      padding: 0;
+    }
+
+    section {
+      margin: 0 auto;
+      min-height: 100vh;
+      width: 98%;
+    }
+
+    section h1 {
+      margin: 0;
+      padding: 1.5rem;
+      color: var(--primary-main-4);
+      font-size: calc(var(--font-heading-scale) * 4rem);
+      font-family: "Biryani";
+      font-size: 50px;
+      text-align: left;
+    }
+
+    section p {
+      color: var(--text-color);
+      font-size: 1.4rem;
+      padding: 0 1.5rem;
+      margin: 0 auto;
+      font-family: "Work Sans";
+    }
+
+    #instructions {
+      background-color: var(--secondary-3);
+      width: 80%;
+      margin: 1.5rem;
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    #instructions p {
+      color: #ffffff;
+      font-size: 1rem;
+      padding: 0px;
+      margin: 0 auto;
+      line-height: 20px;
+      font-family: "Work Sans";
+    }
+  </style>
+  <header-component></header-component>
+  <body>
+    <section id="contact-us">
+      <h1>Contact Us</h1>
+      <div>
+        <p>
+          We are not perfect and communication with you will help us grow ahead
+          towards perfection.
+        </p>
+        <p>Every connection we build togther, we mean them for future ahead.</p>
+        <div id="instructions">
+          <p>So let's connect,<br>
+          In case of any problems,<br>
+          In case of any feedback,<br>
+          In case of any needful communication,<br>
+          Do not hesitate to directly contact the team via <br>
+          <span>jhattcut@gmail.com</span> and get a manual reply in <br>
+          no more than 60 seconds
+        </p>
+        </div>
+        <p>Thank you! See you on the other side.</p>
+      </div>
+    </section>
+  </body>
+  <footer-component></footer-component>
+  <script src="script.js" defer></script>
+</html>
+
+section div { color: var(--text-color); /* color: #e8cbfb; */ font-size: 1.4rem;
+width: 80%; margin: 0 auto; font-family: "Work Sans"; }
