@@ -1,14 +1,14 @@
 class Header extends HTMLElement {
   constructor() {
     super();
-    window.onload = () => {
+    window.addEventListener("load", () => {
       const menuBar = document.getElementById("menu-bar");
       const navLinks = document.getElementById("nav-links");
       menuBar?.addEventListener("click", () => {
-          navLinks.style.display =
-            navLinks.style.display === "none" ? "flex" : "none";
+        navLinks.style.display =
+          navLinks.style.display === "none" ? "flex" : "none";
       });
-    }
+    });
   }
   connectedCallback() {
     this.innerHTML = `
@@ -16,8 +16,9 @@ class Header extends HTMLElement {
     <nav>
       <div id="brand">
         <a href="/index.html">
-          <img src="assets/branding.svg" alt="">
+          <img src="assets/logo.svg" alt="">
         </a>
+        <h1>JhatCut</h1>
       </div>
       <div id="links">
         <div id="nav-links">
@@ -26,6 +27,9 @@ class Header extends HTMLElement {
           <a href="/index.html#services">Services</a>
           <a href="">
             <img src="assets/contact-us-btn.svg" alt="">
+          </a>
+          <a id="toggle-mode">
+            <img id="toggle-mode-icon">
           </a>
         </div> 
       </div>

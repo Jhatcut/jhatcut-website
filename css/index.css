@@ -27,7 +27,7 @@
   font-weight: 700;
   font-size: 56px;
   line-height: 66px;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 #jhatcut-logo {
@@ -48,7 +48,7 @@
   font-weight: 700;
   font-size: 52px;
   line-height: 66px;
-  color: #ffffff;
+  color: var(--text-color);
   white-space: nowrap;
 }
 
@@ -61,7 +61,7 @@
   font-weight: 500;
   font-size: 28px;
   line-height: 33px;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 #intro #scroll-down {
@@ -93,7 +93,7 @@
   font-weight: 600;
   font-size: 35px;
   line-height: 56px;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 #about #about-intro {
@@ -104,7 +104,7 @@
   font-size: 18px;
   line-height: 25px;
   text-align: center;
-  color: #ffffff;
+  color: var(--text-color);
   width: 50%;
   padding: 20px 0;
 }
@@ -144,6 +144,7 @@
 #about .feature {
   width: 85%;
   margin: 0 auto;
+  border: none;
 }
 
 #about #rect1 {
@@ -172,7 +173,7 @@
   line-height: 28px;
   text-align: center;
   text-transform: capitalize;
-  color: #ffffff;
+  color: var(--text-color);
   margin: 0 auto;
   padding: 0;
 }
@@ -181,7 +182,7 @@
   font-size: 18px;
   line-height: 28px;
   text-align: center;
-  color: #ffffff;
+  color: var(--text-color);
   margin: 0 auto;
   padding: 0;
 }
@@ -215,7 +216,7 @@
   font-weight: 600;
   font-size: 35px;
   line-height: 56px;
-  color: #ffffff;
+  color: var(--text-color);
   padding: 20px 0;
 }
 
@@ -227,7 +228,7 @@
   font-size: 18px;
   line-height: 25px;
   text-align: center;
-  color: #ffffff;
+  color: var(--text-color);
   width: 50%;
 }
 
@@ -258,7 +259,7 @@
   width: 60%;
 }
 
-.image-div #s {
+.image-div .s {
   width: 30%;
 }
 
@@ -305,7 +306,7 @@
   font-weight: 600;
   font-size: 26px;
   line-height: 38px;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 #download #download-section h1 {
@@ -314,7 +315,7 @@
   font-weight: 700;
   font-size: 28px;
   line-height: 42px;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 #download #download-section span {
@@ -334,6 +335,10 @@
 }
 
 @media screen and (max-width: 700px) {
+  #intro {
+    margin-top: 35px;
+  }
+  
   #about #text-section {
     padding: 0px;
   }
@@ -370,7 +375,7 @@
   #services #services-heading {
     font-size: 32px;
     line-height: 38px;
-    color: #ffffff;
+    color: var(--text-color);
     padding: 20px 0;
   }
 
@@ -388,11 +393,11 @@
   }
 
   .image-div #picture {
-    width: 90%;
+    width: 100%;
   }
   
-  .image-div #s {
-    width: 50%;
+  .image-div .s {
+    width: 65%;
   }
 
   #download #content {
@@ -422,14 +427,14 @@
   #download-section-mobile p {
     font-size: 26px;
     line-height: 38px;
-    color: #ffffff;
+    color: var(--text-color);
     padding: 0;
   }
 
   #download-section-mobile h1 {
     font-size: 22px;
     line-height: 30px;
-    color: #ffffff;
+    color: var(--text-color);
   }
 
   #download-section-mobile #qrcode {
