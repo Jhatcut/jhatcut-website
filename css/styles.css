@@ -45,6 +45,8 @@ a {
 #header {
   margin: 0;
   display: block;
+  position: relative;
+  width: 100%;
 }
 
 a:hover {
@@ -53,16 +55,16 @@ a:hover {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1000;
-  padding: 2px 40px;
   margin: 0 auto;
   background-color: var(--secondary-main-4);
+  width: 100%;
 }
 
 #menu-bar {
@@ -75,9 +77,8 @@ nav #brand {
   flex-direction: row;
   margin: 0;
   padding: 0;
-  justify-content: space-between;
   align-items: center;
-  column-gap: 5px;
+  column-gap: 20px;
 }
 
 nav #brand h1 {
@@ -87,6 +88,7 @@ nav #brand h1 {
   font-size: 24px;
   line-height: 28px;
   color: var(--text-color);
+  
 }
 
 nav #links {
@@ -233,7 +235,6 @@ footer #brand p {
     align-items: center;
     width: 100%;
     background-color: var(--secondary-main-4);
-    padding: 5px 0 10px 0;
     display: none;
     opacity: 80%;
     border-top: 1px ridge var(--text-color);
