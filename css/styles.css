@@ -227,19 +227,25 @@ footer #brand p {
       "c";
   }
 
+  /* #cont-btn {
+    width: 50%;
+    margin: 0 auto;
+  } */
+
   nav #links #nav-links {
     position: absolute;
     flex-direction: column;
     flex-wrap: wrap;
-    left: 0;
+    left: -10%;
     top: 100%;
-    row-gap: 10px;
+    row-gap: 12.5px;
     align-items: center;
-    width: 100%;
+    width: 120%;
     background-color: var(--secondary-main-4);
     display: none;
-    opacity: 80%;
+    /* opacity: 90%; */
     border-top: 1px ridge var(--text-color);
+    padding: 15px 0;
   }
 
   #menu-bar {

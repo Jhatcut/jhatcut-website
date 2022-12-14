@@ -6,7 +6,7 @@ class Header extends HTMLElement {
       const navLinks = document.getElementById("nav-links");
       menuBar?.addEventListener("click", () => {
         navLinks.style.display =
-          navLinks.style.display === "none" ? "flex" : "none";
+          navLinks.style.display === "flex" ? "none" : "flex";
       });
     });
   }
