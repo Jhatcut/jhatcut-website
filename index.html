@@ -10,8 +10,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Biryani&family=Work+Sans&display=swap" rel="stylesheet">
-  <script src="componenets/Header.js" type="text/javascript" defer></script>
-  <script src="componenets/Footer.js" type="text/javascript" defer></script>
+  <script rel="preload" src="componenets/Header.js" type="text/javascript" async></script>
+  <script src="componenets/Footer.js" type="text/javascript" async></script>
   <title>JhattCut</title>
   <link rel="icon" href="favicon.png" >
 </head>
@@ -19,8 +19,8 @@
 <body>
   <section id="intro">
     <picture id="intro-img">
-      <source  srcset="assets/mobile/app-preview.png" media="(max-width: 700px)" width="100%" >
-      <img  src="assets/index/Home.png"  height="auto" width="100%"></img>
+      <source  srcset="assets/mobile/app-preview.png" fetchpriority="high" media="(max-width: 700px)" width="100%" >
+      <img  src="assets/index/Home.png" fetchpriority="high"  height="auto" width="100%"></img>
     </picture>
   </section>
 

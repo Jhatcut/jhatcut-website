@@ -8,7 +8,7 @@ class Footer extends HTMLElement {
     <footer>
     <div id="footer-div">
     <div id="brand">
-      <a href="/index.html"><img src="assets/JHATCUT.svg" height="50%" alt=""></a>
+      <a href="/index.html"><img src="assets/JHATCUT.png" height="50%" alt=""></a>
       <p>An app that helps you to book salon seat , and saves your precious time</p>
     </div>
     <div id="first" class="links-div">
