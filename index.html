@@ -19,8 +19,14 @@
 <body>
   <section id="intro">
     <picture id="intro-img">
-      <source  srcset="assets/mobile/app-preview.png" fetchpriority="high" media="(max-width: 700px)" width="100%" >
+      <!-- <source  srcset="assets/mobile/app-preview.png,assets/mobile/female-main-mobile.png" fetchpriority="high" media="(max-width: 700px)" width="100%" >
+      <source  srcset="" fetchpriority="high" media="(max-width: 700px)" width="100%" >
       <img  src="assets/index/Home.png" fetchpriority="high"  height="auto" width="100%"></img>
+      <img  src="assets/index/female-main.png" fetchpriority="high"  height="auto" width="100%"></img> -->
+      <img class="mySlides fade"  src="assets/index/Home.png" srcset="assets/index/Home.png 2161w, assets/mobile/app-preview.png 780w" height="auto" width="100%" alt=""  sizes="(max-width: 700px) 780px,
+      2161px">
+      <img class="mySlides fade" src="assets/index/female-main.png" srcset="assets/index/female-main.png 2154w, assets/mobile/female-main-mobile.png 870w" height="auto" width="100%" alt="" sizes="(max-width: 700px) 870px,
+      2154px">
     </picture>
   </section>
 
@@ -64,7 +70,7 @@
         </div>
         <img id="qrcode" src="assets/index/download/qrcode.png" alt="">
         <h1>Download <span>JhattCut</span> Now!!!</h1>
-        <a href="#">
+        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.jhatt_cut">
           <img id="playstore-btn" src="assets/index/download/play-store-button.svg" alt="">
         </a>
       </div>
@@ -76,11 +82,10 @@
           <p>Scan Now</p>
         </div>
         <img id="qrcode" src="assets/index/download/qrcode.png" alt="">
-        <a href="#">
+        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.jhatt_cut">
           <img id="playstore-btn" src="assets/index/download/play-store-button.svg" alt="">
         </a>
       </div>
-      
     </div>
   </section>
 </body>

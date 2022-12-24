@@ -28,7 +28,6 @@
       margin: 0;
       padding: 1.5rem;
       color: var(--primary-main-4);
-      font-size: calc(var(--font-heading-scale) * 4rem);
       font-family: "Biryani";
       font-size: 50px;
       text-align: center;
@@ -41,6 +40,17 @@
       width: 80%;
       margin: 0 auto;
       font-family: "Work Sans";
+    }
+
+    @media screen and (max-width: 700px) { 
+      section h1 { 
+      font-size: 25px;
+      }
+      section div, p {
+      color: var(--text-color);
+      /* color: #e8cbfb; */
+      font-size: 1rem;
+      }
     }
   </style>
 
