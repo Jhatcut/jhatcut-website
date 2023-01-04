@@ -18,16 +18,26 @@
 <header-component></header-component>
 <body>
   <section id="intro">
-    <picture id="intro-img">
+    <div id="intro-img">
       <!-- <source  srcset="assets/mobile/app-preview.png,assets/mobile/female-main-mobile.png" fetchpriority="high" media="(max-width: 700px)" width="100%" >
       <source  srcset="" fetchpriority="high" media="(max-width: 700px)" width="100%" >
       <img  src="assets/index/Home.png" fetchpriority="high"  height="auto" width="100%"></img>
       <img  src="assets/index/female-main.png" fetchpriority="high"  height="auto" width="100%"></img> -->
-      <img class="mySlides fade"  src="assets/index/Home.png" srcset="assets/index/Home.png 2161w, assets/mobile/app-preview.png 780w" height="auto" width="100%" alt=""  sizes="(max-width: 700px) 780px,
+      <picture  class="mySlides fade">
+        <source height="auto" width="100%"  srcset="assets/index/Home.png"
+        media="(min-width: 700px)">
+        <img height="auto" width="100%" srcset="assets/mobile/app-preview.png">
+      </picture>
+      <picture class="mySlides fade">
+        <source height="auto" width="100%" srcset="assets/index/female-main.png"
+        media="(min-width: 700px)">
+        <img height="auto" width="100%" srcset="assets/mobile/female-main-mobile.png">
+      </picture>
+      <!-- <img class="mySlides fade"  src="assets/index/Home.png" srcset="assets/index/Home.png 2161w, assets/mobile/app-preview.png 780w" height="auto" width="100%" alt=""  sizes="(max-width: 700px) 780px,
       2161px">
       <img class="mySlides fade" src="assets/index/female-main.png" srcset="assets/index/female-main.png 2154w, assets/mobile/female-main-mobile.png 870w" height="auto" width="100%" alt="" sizes="(max-width: 700px) 870px,
-      2154px">
-    </picture>
+      2154px"> -->
+      </div>
   </section>
 
   <section id="about">

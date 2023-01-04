@@ -14,13 +14,13 @@ class Footer extends HTMLElement {
     <div id="first" class="links-div">
       <a href="/index.html#about">About</a>
       <a href="/index.html#services">Services</a>
-      <a href="/contact-us.html">Contact US</a>
+      <a href="/contact-us.html">Contact us</a>
     </div>
     <!-- <div class="seaprator" style="left: 50%;"></div> -->
     <div id="second" class="links-div">
       <a href="/privacy-policy.html">Privacy Policy</a>
       <a href="t&c.html">Terms & Conditions</a>
-      <a href="">Partnership Details</a>
+
     </div>
     <!-- <div class="seaprator" style="left: 75%;"></div> -->
     <div id="last" class="links-div">
@@ -32,8 +32,6 @@ class Footer extends HTMLElement {
       ">
         <a href=""><img src="assets/icons/ant-design_instagram-filled.svg" alt=""></a>
         <a href=""><img src="assets/icons/akar-icons_linkedin-box-fill.svg" alt=""></a>
-        <a href=""><img src="assets/icons/brandico_facebook-rect.svg" alt=""></a>
-        <a href=""><img src="assets/icons/akar-icons_youtube-fill.svg" alt=""></a>
       </div>
     </div>
     </div>
@@ -42,3 +40,6 @@ class Footer extends HTMLElement {
 }
 
 customElements.define("footer-component", Footer);
+{/* <a href="">Partnership Details</a> */}
+{/* <a href=""><img src="assets/icons/brandico_facebook-rect.svg" alt=""></a>
+<a href=""><img src="assets/icons/akar-icons_youtube-fill.svg" alt=""></a> */}
