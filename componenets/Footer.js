@@ -30,8 +30,8 @@ class Footer extends HTMLElement {
       align-items: center;
       column-gap: 10%;
       ">
-        <a href=""><img src="assets/icons/ant-design_instagram-filled.svg" alt=""></a>
-        <a href=""><img src="assets/icons/akar-icons_linkedin-box-fill.svg" alt=""></a>
+        <a href="https://instagram.com/jhattcut_official?igshid=YmMyMTA2M2Y="><img src="assets/icons/ant-design_instagram-filled.svg" alt=""></a>
+        <a href="https://www.linkedin.com/company/jhattcut/"><img src="assets/icons/akar-icons_linkedin-box-fill.svg" alt=""></a>
       </div>
     </div>
     </div>
